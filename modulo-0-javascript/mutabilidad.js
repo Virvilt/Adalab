@@ -28,6 +28,3 @@ console.log(person)
 changeName(person)
 
 console.log(person)
-
-
-

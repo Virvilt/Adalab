@@ -1,0 +1,14 @@
+// String primitivo. Paso por valor = Cambiamos el valor creando uno nuevo
+
+const stringPrimitivo = 'Soy un string primitivo'
+console.log(typeof stringPrimitivo)
+
+const stringPrimitivoTambien = String('soy un string primitivo tambien')
+console.log(typeof stringPrimitivoTambien)
+
+//String objeto
+const stringObjeto = new String('Soy un string objeto')
+console.log(typeof stringObjeto)
+
+// Acceder a Caracteres
+const saludo = 'Hola. ¿Como estás?'
