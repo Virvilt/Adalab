@@ -1,0 +1,20 @@
+body {
+color:#23A9B4;
+background-color: #A2D2D6;
+}
+div {
+width: 60%;
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+padding-left: 20px;
+padding-right: 20px;
+border-color: #23A9B4;
+border-style: groove;
+border-radius: 5px;
+
+}
+.tittle {
+    font-family:'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
