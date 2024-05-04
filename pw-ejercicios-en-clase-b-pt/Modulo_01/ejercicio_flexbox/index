@@ -3,21 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Ejerccicio flexbox
-    </title>
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Ejercicio flexbox</title>
   </head>
-  <body>
+  <body class="page_container">
     <header class="header">
-        Blog
+        <div class="centralcolumn">
+            <h1>Blog</h1>
 
-       <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Archivo</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-        </nav>
+                <nav>
+                  <ul class="menulist">
+                   <li><a class="menu_list" href="#">Inicio</a></li>
+                  <li><a class="menu_list" href="#">Archivo</a></li>
+                   <li><a class="menu_list" href="#">Contato</a></li>
+                 </ul>
+                </nav>
+        </div>
     </header>
 
     <main class="main">
@@ -35,4 +36,5 @@
         con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem 
         Ipsum.
     </main>
-    )
+    
+    <footer class="footer">Copyright. Cookies. Terminos y condiciones.</footer>

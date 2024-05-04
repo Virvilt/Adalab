@@ -4,9 +4,49 @@
     margin: 0;
 }
 
+.page.container {
+    display: flex;
+    height: 100vh; /* Para repartir todos los tamaños. PEga el footer abajo. Independientes de la pagina*/
+    flex-direction: column;
+}
+
 .header {
     background-color: #333;
     color: #fff;
+    height: 70px;
+    /* flex: 0 0 80px;  - Con esta propiedad el tamaño es siempre el mismo, no cambia al hacer scroll. Se añade al menu y al footer*/
+
+}
+.main {
+    height: 100%;
+}
+
+
+.centralcolumn {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    max-width: 600px; /*Siempre va a medir 600px;*/
+    margin-inline: auto; /* centrado dependiendo del tamaño de la pantalla*/
+
+}
+
+.menulist {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu_list {
+    padding: 1em;
+    gap: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.footer {
+    height: 60px;
+    padding: 2em;
+    border-top: dotted 1px #333;
 }

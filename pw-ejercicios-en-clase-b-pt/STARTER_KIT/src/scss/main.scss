@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+
+
+.principal_box {
+  width: 100%;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-color: rgb(210, 210, 210);
+  border-radius: 15px;
+  border-style: groove;
+}
+.box1 {
+  display: flex;
+}
+
+.picture {
+  width:80px;
+  display: flex;
+  background-color: aquamarine;
+  margin-right: 20px;
+  margin-left: 20px;
+  position:static;
+}
+
+.info_box {
+  position:relative;
+}
+
+.tittle {
+  color: rgb(58, 58, 58);
+  font-size: 20px;
+}
+.button {
+  background-color: rgb(167, 167, 167);
+}
+
+.value_box {
+
+
+  flex-direction: row;
+  align-content: end;
+}
