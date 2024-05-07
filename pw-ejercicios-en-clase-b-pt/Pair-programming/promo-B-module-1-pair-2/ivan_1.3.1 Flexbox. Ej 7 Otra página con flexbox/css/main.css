@@ -1,0 +1,144 @@
+/* Hoja de estilos de reset mínima */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuente general */
+
+:root {
+  background-color: #333333;
+  color: white;
+  font: 16px 'Roboto', arial, sans;
+}
+
+.header {
+  background-color: darkcyan;
+  color: white;
+
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos del ejercicio */
+
+.card {
+  display: flex;
+
+  max-width: 840px;
+  margin-inline: 10px;
+  outline: solid 2px #656565;
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  background-color: #eeeeee;
+  color: #555555;
+
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.image {
+  flex: 0 0 auto;
+  width: 100px;
+  height: 100px;
+  margin-inline: 10px;
+  border-radius: 5px;
+}
+
+.personal_data {
+  flex: 1 1 auto;
+  margin-left: 10px;
+}
+
+.title {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.job {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.list {
+  width: 340px;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  list-style-type: none;
+}
+
+.list__item {
+  width: 50%;
+  line-height: 24px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  padding-block: 5px;
+
+  border: solid 3px #aaaaaa;
+  border-radius: 5px;
+  color: #aaaaaa;
+
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.button.inv {
+  background-color: #aaaaaa;
+  color: #dddddd;
+}
+
+.ratings {
+  flex: 0 0 170px;
+  display: flex;
+  gap: 10px;
+
+  font-size: 12px;
+  text-align: right;
+}
+
+.score {
+  font-weight: 600;
+}
+
+.comments {
+  color: #aaaaaa;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.vote {
+  display: flex;
+  flex-direction: column;
+}
+
+.vote__number {
+  width: 50px;
+  height: 50px;
+  background-color: #aaaaaa;
+  color: #333333;
+
+  border-radius: 10px;
+  
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}

@@ -49,4 +49,7 @@
     height: 60px;
     padding: 2em;
     border-top: dotted 1px #333;
+   /* position: fixed;
+    bottom: 0;
+    width: 100%; */
 }

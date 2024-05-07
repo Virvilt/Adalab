@@ -37,4 +37,7 @@
         Ipsum.
     </main>
     
-    <footer class="footer">Copyright. Cookies. Terminos y condiciones.</footer>
+    <footer class="footer">
+      &copy; Copyright. 
+      
+      Cookies. Terminos y condiciones.</footer>
