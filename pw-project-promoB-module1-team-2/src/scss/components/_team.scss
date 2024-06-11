@@ -1,0 +1,102 @@
+.team_section { /*CONTENEDOR*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  min-width: 320px;
+  scroll-margin-top: 90x;
+  @media (min-width: 768px) {
+    scroll-margin-top: 50px;
+  }
+}
+.team {
+  padding: 30px 45px;
+  background-color: $color-white;
+}
+.team_title { /*TITULO-EQUIPO*/
+  color: $color-aqua;
+  text-transform: uppercase;
+  font-family: Rubik;
+  font-size: 1.5rem;
+  line-height: 45px;
+}
+.description {
+  font-family: "Open Sans";
+  font-size: 16px;
+  align-items: center;
+  line-height: 24px;
+  color: $color-dark-grey;
+}
+.strength { /*FORTALEZA*/
+  font-family: Rubik;
+  width: 100%;
+  padding: 50px 15px 0px 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.diamond {/*ROMBO*/
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  transform: rotate(45deg);
+  display: flex;
+  position: absolute;
+  top: -15px;
+  z-index: 1;
+}
+.green_title { /*DEBILIDADES*/
+  color: $color-blue-green;
+  text-transform: uppercase;
+  font-family: Rubik;
+  padding-bottom: 10px;
+}
+.weakness {
+  font-family: Rubik;
+  width: 100%;
+  padding: 20px 15px 0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.strength_weakness {
+  position: relative;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $color-aluminum-gray;
+}
+@media (min-width: 768px) {
+  .strength_weakness {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 45px;
+  }
+  .weakness {
+    padding: 50px 15px 0px 15px;
+  }
+  .team_title {
+    color:$color-blue-green;
+  }
+}
+@media (min-width: 1200px) {
+  .team {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 138px;
+  }
+  .strength_weakness {
+    padding-inline: 138px;
+  }
+  .team_title {
+    color: $color-blue-green;
+  }
+}
+

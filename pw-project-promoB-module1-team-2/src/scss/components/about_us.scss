@@ -1,0 +1,234 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px lightgray;
+    text-align: center;
+    scroll-margin-top: 90px;
+    @media (min-width: 768px) {
+        scroll-margin-top: 50px;
+    }
+}
+    
+
+.about_us {
+    max-width: 80%;
+    margin-block: 5px;
+}
+
+.about_us_title {
+    color: #099d8d;
+    font-family: "Rubik";
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    margin-block: 30px;
+}
+
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-block: 5px;
+}
+
+.images {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    border: solid 5px lightgray;
+}
+
+.membertext {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-block: 10px;
+    font-size: 16px;    
+    color: #54585a;
+    line-height: 24px;
+    padding-block: 10px;
+    
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.social_media {
+    color: #099d8d;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-block: 10px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.name_member {
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    /*margin-block: 5px;*/
+    margin-top: 15px;
+}
+
+.memberinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.memberinfo ul li {
+ position: relative;
+
+}
+
+.memberinfo ul li:not(:last-child)::after {
+    content: '·';
+    color: grey; 
+    position: absolute;
+    right: -10px;
+    font-size: 15px; 
+    margin-top: -35px;
+  }
+
+@media (min-width: 768px) {
+
+    .about_us {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /*padding: 45px 45px 60px 45px;*/
+        max-width: 90%;
+    }
+    .team_members {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team-member {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+    
+    }
+
+    .social_media {
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 0px;
+        gap: 15px;
+    }
+
+    .team-member:nth-child(even) { 
+        flex-direction: row-reverse;
+    }
+    
+    .team-member img {
+        margin: 0 31PX;
+    }
+
+    .memberinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .team-member:nth-child(even) .memberinfo {
+        align-items: flex-end;
+        justify-content: right;
+        
+    }
+    
+    .team-member:nth-child(even) .name_member {
+        text-align: right;
+    }
+
+    .team-member:nth-child(even) .membertext {
+        text-align: right;
+    }
+
+    .name_member {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .membertext {
+        text-align: left;
+        margin-top: 0px;
+    }
+
+    .images {
+        width: 205px;
+        height: 205px;
+
+    }
+    
+    .name_member:nth-child(even) {
+        text-align: right;
+    }
+
+
+   .team-member:nth-child(even) .membertext {
+    align-items: flex-end;
+   }
+    }
+
+@media (min-width: 1200px) {
+
+    .images {
+        width: 278px;
+        height: 278px;
+        border: solid 5px lightgrey;  
+    }
+
+    .team-member img {
+        margin: 0px 0px;
+    }
+    .about_us {
+        padding: 45px 138px 45px 138px;
+        /*max-width: 80%;*/
+    }
+
+    .membertext {
+        font-size: 16px;
+        max-width: 65%;
+        line-height: 24px;
+        margin-inline: 10px;
+    }
+
+    .social_media {
+        margin-inline: 10px;
+        gap: 0px;
+    }
+
+    .name_member {
+        text-align: left;
+        margin-top: -60px;
+        margin-inline: 10px;
+    }
+
+    .memberinfo ul li:not(:last-child)::after {
+        margin-top: -35px;
+        right: 0px;
+      }
+    }
+
+

@@ -1,0 +1,33 @@
+@import './core/reset.scss';
+@import './core/variables.scss';
+@import './components/nav.scss';
+@import 'components/team';
+@import 'components/team2';
+@import './components/about_us.scss'; 
+@import './components/_footer.scss';
+@import './components/_header.scss';
+@import './components/hero';
+@import './components/hero2';
+@import './components/team2';
+@import './components/formulario';
+
+
+
+:root {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+// <width>: Use a value from 75 to 100
+
+

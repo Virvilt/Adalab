@@ -1,0 +1,46 @@
+
+ .hero {
+    background-image: url('../images/escritorio_flores.avif');
+    background-size: cover;
+    background-position: center;
+    height: 421px;  
+    z-index: -1;
+    min-width: 320px;
+    
+    @media (min-width: 1200px) {
+        height: 550px;
+    
+    }
+    
+ }
+
+ 
+.paragraph_header {
+    background-color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    position: relative;
+    top: 24.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 24px;
+    @media (min-width: 768px) {
+        top: 21.5rem;
+        width: 441px;
+        font-weight: 700;
+        font-size: 25px;
+        opacity: .6;
+        margin-left: 50px;
+        padding: 20px;
+    }
+    @media (min-width:1200px) {
+        width: 574px;
+        height: 90px;
+        font-size: 30px;
+        padding-top: 15px;
+        top: 460px;
+        margin-left: 138px;
+  
+    }
+}

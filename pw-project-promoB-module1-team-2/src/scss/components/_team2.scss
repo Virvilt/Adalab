@@ -1,0 +1,51 @@
+.team_section_contact { /*CONTENEDOR*/
+    position: relative;
+    bottom: 50px;
+    min-width: 320px;
+  }
+  .team_contact {
+    
+   @media (min-width:768px) {
+    margin-top: 60px;
+   } 
+  }
+
+  .required_text {
+    font-size: 11px;
+    color: $color-dark-grey;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .team_title_contact { /*TITULO-EQUIPO*/
+    color: $color-blue-green;
+    text-transform: uppercase;
+    font-family: Rubik;
+    font-size: 1.5rem;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .description_contact {
+    font-family: Rubik;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: $color-dark-grey;
+    padding-block: 25px;
+    padding-top: 15px;
+    @media (min-width: 768px) {
+        margin-left: 150px;
+        margin-right: 150px;
+        
+        
+    }
+    @media (min-width: 1200px) {
+        margin-left: 320px;
+        margin-right: 320px;
+    }
+  } 
+
+  
+  
+

@@ -1,0 +1,15 @@
+
+.hero2 {
+    background-image: url('../images/chica_ordena.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 421px;  
+    position: relative;
+    bottom: 125px;
+    z-index: -1;
+    @media (min-width: 1200px) {
+        height: 490px;
+        
+    }
+    
+ }
