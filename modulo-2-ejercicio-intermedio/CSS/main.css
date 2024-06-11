@@ -1,0 +1,18 @@
+body {
+    color:#23A9B4;
+    background-color: #d1e2e4;
+    
+}
+    
+.label_number {
+        display: block;
+    }
+    
+.main{
+       margin: 20px; 
+    }
+
+.pista {
+    border-color: #23A9B4;
+    border: 2px;
+}
